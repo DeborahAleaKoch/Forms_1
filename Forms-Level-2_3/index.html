@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Forms Level 2_3</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <!-- % Überschrift des Formulars -->
+            <legend>Register form</legend>
+
+            <!-- % Namen und Email Eingabefelder erstellen -->
+            
+                <section>
+                    <div><label for="name">Name</label></div>
+                    
+                    <input type="text" name="nameInput" id="name" placeholder="Name">
+                </section>
+            
+
+    
+                <section>
+                    <div><label for="surname">Surname</label></div>
+                    <input type="text" name="nameInput" id="surname" placeholder="Surname" >
+                </section>
+            
+
+                <section>
+                    <div><label for="mail">Email</label></div>
+                    
+                    <input type="email" name="email" id="mail" placeholder="Email" >
+                </section>
+            
+
+            <!-- % RadioButton für die Geschlechter Auswahl erstellen -->
+            
+                <section>
+                    <div><label for="">Gender </label></div>
+                    <label for="male">Male</label>
+                    <input type="radio" name="maleFemale" id="male" >
+                
+                    <label for="female">Female</label>
+                    <input type="radio" name="maleFemale" id="female">
+                </section>
+            
+
+            <!-- % Dateien hochladen und auswählen können -->
+            
+                <section>
+                    <div><label for="">Picture</label></div>
+                    <input type="file" name="" id="" >
+                </section>
+            
+
+            <!-- % Dropdown Menü für die Länderauswahl -->
+            
+                <section>
+                    <div><label for="">Country</label></div>
+                    <select name="country" id="" >
+                        <option value="germany">Germany</option>
+                        <option value="france">France</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </section>
+            
+
+            <!-- % Auflistungen der verschiedenen prog.Sprachen in einer Listen ansicht -->
+            
+                <section>
+                    <div class="lang"><label for="" class="prefLang">Preferred languages</label></div>
+                    
+                    <select name="languages" id="" multiple >
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JS">JS</option>
+                        <option value="React">React</option>
+                    </select>
+                <p>(To choose more than one use cmd key)</p>
+
+                </section>
+            
+            <!-- % Checkboxen erstellen -->
+
+                <section>
+                    <div><label for="">Fieled of activity</label></div>
+
+                    
+                    <input type="checkbox" name="it[]" id="checkboxIT" >
+                    <label for="checkboxIT">IT</label>
+
+                    <input type="checkbox" name="Design[]" id="checkboxDesign">
+                    <label for="checkboxDesign">Design</label>
+
+                    <input type="checkbox" name="Other[]" id="checkboxOther">
+                    <label for="checkboxOther">Other</label>
+                    
+                </section>
+            
+
+            <!-- % Button/ Submit für das Senden oder das clearen der Oberfläche -->
+            <section>
+                <input type="submit" value="Send">
+                <button type="reset" value="">Clear</button>
+            </section>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

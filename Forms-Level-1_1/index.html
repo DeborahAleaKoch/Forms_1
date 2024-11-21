@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Forms Level 1_1</title>
+</head>
+<body>
+    <!-- anlegen eines Formulares -->
+    <form action="">
+        <fieldset>
+
+        <!-- Eingabefelder für den Namen wird erzeugt -->
+        <section>
+            <h4>Name <span>*</span></h4>
+            <div>
+                <label for="firstName"></label>
+                <input type="text" name="" id="firstName" class="names" placeholder="Vorname" value="" required>
+
+                <label for="lastName"></label>
+                <input type="text" name="" id="lastName" class="names"  placeholder="Nachname" value="" required>
+            </div>
+            
+        </section>
+
+        <!-- Mail Eingabefeld wird erzeugt -->
+        <section>
+            <h4>Email <span>*</span></h4>
+            <div>
+                <label for="mail"></label>
+            <input type="email" name="" id="mail" placeholder="mail" required>
+            </div>
+        </section>
+
+        <!-- Dropdown Menü wird erzeugt -->
+        <section>
+            <h4>Thema</h4>
+            <div>
+                <select name="" id="" required>
+                    <option value="">General</option>
+                    <option value="">Advertise</option>
+                    <option value="">Partnership</option>
+            </select>
+            </div>
+        </section>
+
+        <!-- Textarea Feldwird erzeugt -->
+        <section>
+            <h4>Nachricht <span>*</span></h4>
+            <div>
+                <textarea name="nachricht" id="" rows="5" required></textarea>
+            </div>
+        </section>
+
+        <section>
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit" value="">Submit</button>
+        </section>
+    </fieldset>
+    </form>
+</body>
+</html>

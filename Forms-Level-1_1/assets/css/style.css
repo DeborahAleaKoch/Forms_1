@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* abstand zu den Seiten */
+form {
+    padding: 100px;
+}
+
+/* Abstände zwischen den einzelnen Div Boxen nach unten */
+div{
+    margin-bottom: 10px;
+}
+
+/* Überschrift wird skaliert */
+h4{
+    font-size: 1.5rem;
+}
+
+/* Der Button wird gestaltet */
+button {
+    background-color: rgb(103, 178, 178);
+    text-align: center;
+    border: none;
+    color: rgb(249, 241, 241);
+    padding: 2px;
+}
+
+/* die Breite der oberen Namen eigabefelder wird definiert */
+.names{
+    width: 49%;
+}
+
+/* die Breite der Eingabefelder wird auf die maximale Breite des fieldset gesetzt */
+input, textarea, button, select{
+    width: 100%;
+}
+
+/* sternchen Farbe geändert */
+span {
+    color: red;
+}
+
+/* den Rahmen vom fieldset entfernt und die Größe der Box angepasst */
+fieldset {
+    border: 0;
+    width: 31em;
+}

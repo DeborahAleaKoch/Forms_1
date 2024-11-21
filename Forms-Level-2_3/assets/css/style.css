@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+form {
+    font-size: 1.5rem;
+}
+
+fieldset {
+    padding-left: 20px;
+}
+
+section {
+    margin: 5px;
+}
+
+input {
+    display: inline-block;
+}
+
+/* % die lables in ein jeweiliges div damit diese vom input getrennt sind, hier z.B. am linken Rand kleben bleibenund die Input Felder mit der Weite eingerückt werden können.*/
+div {
+    width: 300px;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+
+}
+.prefLang {
+    background-color: aqua;
+    margin-bottom: -50px;
+}
+
+/* .lang {
+    height: 30px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+} */
