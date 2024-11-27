@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Forms-Level-3_1</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- $ Erstellen von Header Element mit Überschrift -->
+      <div class="header">
+        <h1>Sign Up Now!</h1>
+        <p>Sign up and tell us waht you think of the site!</p>
+      </div>
+      <fieldset>
+        <!-- $ Erstellen von Input Feldern -->
+
+        <h2 class="number">1</h2><h2>First Name & Address</h2>
+        <section>
+          <div><label for="fullName">Your Full Name</label></div>
+          <input type="text" id="fullName" name="" required />
+
+          <div><label for="address">Address</label></div>
+          <input type="text" id="address" name="" />
+        </section>
+
+        <h2 class="number">2</h2><h2>Email & Phone</h2>
+        <section>
+          <div><label for="email">Email Address</label></div>
+          <input type="email" id="email" />
+          <div><label for="phone">Phone Number</label></div>
+          <input type="tel" id="phone" />
+        </section>
+
+        <h2 class="number">3</h2><h2>Password</h2>
+        <section>
+          <div><label for="password">Password</label></div>
+          <input type="password" id="password" />
+          <div><label for="confirmPassword">Confirm Password</label></div>
+          <input type="password" id="confirmPassword" />
+        </section>
+
+        <div class="sendBtnCheck">
+          <div><button type="submit">Senden</button></div>
+
+          <!-- <div class="checkboxLable"> -->
+            <div class="checkboxLayout">
+              <input type="checkbox" id="check" />
+              <label for="check" class="labelCheck">You agree to our Terms and Policy. </label>
+            </div>
+          <!-- </div> -->
+
+          <p></p>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

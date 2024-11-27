@@ -6,30 +6,102 @@
 
 html {
   font-size: 10px;
+  font-family: sans-serif;
 }
 
+
+/*  # Formular */
 form {
   display: flex;
   justify-content: center;
   padding: 30px;
-}
-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  /* padding: 20px; */
+
 }
 
 fieldset {
-  border: pink 2px solid;
-  width: 500px;
-  height: 800px;
+  /* border: pink 2px solid; */
+  border: none;
+  background-color: rgba(165, 49, 237, 0.422);
+  width: 40vw;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 5px;
+}
+/* # Buttons oben */
+
+.btnSizingUp {
+  background-color: rgba(217, 30, 246, 0.571);
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  width: 49%;
+  height: 4rem;
+  margin: 5px;
 }
 
-input {
-  width: 100px;
-  height: 30px;
+.btnSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* # H1 */
+
+h1 {
+  /* display: inline-block; */
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  
+}
+
+/* # Eingabefelder */
+.nameBox {
+  width: 48%;
+  line-height: 3rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.nameBoxFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.eingabefeilderUntereinander {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.emailPasswordBox {
+  width: 98%;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  line-height: 3rem;
+}
+
+/*  #get startet button */
+.btnGetStartedFlex {
+  display: flex;
+  margin-left: 10px;
+}
+
+.getStarted {
+  background-color: rgb(217, 30, 246);
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+  height: 4rem;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.signInBtn:active, .getStartet:active {
+  transform: scale(0.8);
+  
 }
